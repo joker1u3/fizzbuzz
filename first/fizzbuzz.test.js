@@ -19,7 +19,7 @@ suite('fizzbuzz', function() {
 
     test('should return buzz', function() {
       assert.equal('buzz', fizzbuzz.toString(5));
-      assert.equal('buzz', fizzbuzz.toString(51));
+      assert.equal('buzz', fizzbuzz.toString(52));
     });
 
     test('should return fizzbuzz', function() {
